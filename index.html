@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Card</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<link rel="icon" href="favicon.png" />
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+	<main>
+		<div>
+			<div>
+				<strong>Start: </strong>
+				<select id="start">
+					<option value="chicago, il">Chicago</option>
+					<option value="st louis, mo">St Louis</option>
+					<option value="joplin, mo">Joplin, MO</option>
+					<option value="oklahoma city, ok">Oklahoma City</option>
+					<option value="amarillo, tx">Amarillo</option>
+					<option value="gallup, nm">Gallup, NM</option>
+					<option value="flagstaff, az">Flagstaff, AZ</option>
+					<option value="winona, az">Winona</option>
+					<option value="kingman, az">Kingman</option>
+					<option value="barstow, ca">Barstow</option>
+					<option value="san bernardino, ca">San Bernardino</option>
+					<option value="los angeles, ca">Los Angeles</option>
+				</select>
+				<strong>End: </strong>
+				<select id="end">
+					<option value="chicago, il">Chicago</option>
+					<option value="st louis, mo">St Louis</option>
+					<option value="joplin, mo">Joplin, MO</option>
+					<option value="oklahoma city, ok">Oklahoma City</option>
+					<option value="amarillo, tx">Amarillo</option>
+					<option value="gallup, nm">Gallup, NM</option>
+					<option value="flagstaff, az">Flagstaff, AZ</option>
+					<option value="winona, az">Winona</option>
+					<option value="kingman, az">Kingman</option>
+					<option value="barstow, ca">Barstow</option>
+					<option value="san bernardino, ca">San Bernardino</option>
+					<option value="los angeles, ca">Los Angeles</option>
+				</select>
+				<!-- <input type="text" class="form-control" id="search" placeholder="Search..."> -->
+			</div>
+			<div id="ba-map"></div>
+
+			<!-- /.ba-map -->
+	</main>
+	<script src="js/main.js"></script>
+	<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_Jvxqn58YjaRXRyCo3NCydwNDI_9NBXU&callback=initMap">
+		</script>
+</body>
+
+</html>
